@@ -9,3 +9,10 @@ Feature: Test the Orange HRM application
     Then user validate Title
     And validate url
     And validate Logo
+
+    Scenario: Test PIM Page Functionality
+    When User on PIM page 
+    Then Validate Url and Title
+    Then Add employee details 
+    And Click on save button
+    
