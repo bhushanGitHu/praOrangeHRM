@@ -16,3 +16,7 @@ Feature: Test the Orange HRM application
     Then Add employee details 
     And Click on save button
     
+    Scenario: Test My info Page
+    When User Click on myinfo link
+    Then User Enter nickname
+    And click on save button
